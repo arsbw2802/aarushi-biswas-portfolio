@@ -1,0 +1,133 @@
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #FFF2E1;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 20;
+  position: fixed;
+  top: 0px;
+}
+nav #nav-right {
+  display: flex;
+  gap: 20px;
+}
+nav #nav-right a {
+  color: #FFF2E1;
+  text-decoration: none;
+  font-size: 16px;
+}
+nav #nav-right a:hover {
+  text-decoration: underline;
+}
+
+#home {
+  margin-top: 5.5%;
+  padding: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-content {
+  text-align: center;
+}
+.home-content h1 {
+  font-size: 70px;
+  margin-top: 0;
+  color: #634832;
+}
+.home-content h2 {
+  font-size: 25px;
+}
+.home-content img {
+  width: 2rem;
+  padding: 0rem;
+}
+
+#skills-list {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  margin-top: 3rem;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  background-color: antiquewhite;
+  width: 11rem;
+  padding-left: 1rem;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 10px 0px rgba(0, 0, 0, 0.19);
+}
+.skill img {
+  width: 4rem;
+  padding-right: 0.75rem;
+  padding-left: 1px;
+}
+
+.resume-section {
+  padding-top: 8%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+
+#about {
+  background-color: #FFF2E1;
+}
+
+.internship {
+  display: flex;
+  align-items: center;
+}
+.internship img {
+  width: 15rem;
+}
+
+.internship-content {
+  margin-left: 2rem;
+}
+
+#projects-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+  margin-top: 50px;
+}
+
+.projects {
+  border-style: solid;
+  border-color: black;
+  padding: 40px;
+}
+.projects img {
+  width: 2rem;
+  padding: 0rem;
+  margin-right: 2rem;
+}
+
+#home-logos {
+  margin-top: 4rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

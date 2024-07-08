@@ -5,7 +5,9 @@
     "main": "index.js",
     "scripts": {
         "start": "webpack serve --mode development",
-        "build": "webpack --mode production"
+        "build": "webpack --mode production",
+        "build-css": "sass css/styles.scss css/styles.css",
+        "watch-css": "sass --watch css/styles.scss:css/styles.css"
     },
     "author": "Aarushi Biswas",
     "license": "ISC",
